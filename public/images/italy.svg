@@ -1,0 +1,14 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8F1" />
+      <stop offset="0.5" stop-color="#DDC5B0" />
+      <stop offset="1" stop-color="#8E9AA2" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="52" fill="url(#bg)"/>
+  <circle cx="900" cy="170" r="105" fill="#FFF6E6" fill-opacity="0.55"/>
+  <path d="M0 618C200 642 355 620 500 586C630 556 760 554 910 596C1040 632 1115 668 1200 694V900H0V618Z" fill="#17324D" fill-opacity="0.18"/>
+  <path d="M0 742C180 704 350 720 520 754C700 790 850 816 1200 846V900H0V742Z" fill="#68785A" fill-opacity="0.22"/>
+  <text x="86" y="126" fill="#1E1E1E" fill-opacity="0.85" font-size="64" font-family="Georgia, 'Times New Roman', serif" font-weight="700">Italy</text>
+</svg>

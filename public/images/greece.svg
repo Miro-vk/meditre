@@ -1,0 +1,14 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDF8F0" />
+      <stop offset="0.55" stop-color="#BFD8D6" />
+      <stop offset="1" stop-color="#5C8FA7" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="52" fill="url(#bg)"/>
+  <circle cx="870" cy="200" r="120" fill="#FFF7E7" fill-opacity="0.7"/>
+  <path d="M0 650C190 620 330 560 470 540C640 516 770 550 920 604C1030 644 1110 670 1200 692V900H0V650Z" fill="#17324D" fill-opacity="0.22"/>
+  <path d="M0 700C200 662 360 656 520 686C690 718 840 770 1200 840V900H0V700Z" fill="#F6EFE7" fill-opacity="0.85"/>
+  <text x="86" y="126" fill="#17324D" fill-opacity="0.85" font-size="64" font-family="Georgia, 'Times New Roman', serif" font-weight="700">Greece</text>
+</svg>

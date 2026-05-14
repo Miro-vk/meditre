@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f6efe7;
+  --foreground: #1e1e1e;
+  --sand: #f6efe7;
+  --ivory: #fffbf5;
+  --terracotta: #b66a4b;
+  --olive: #68785a;
+  --deep-blue: #17324d;
+  --sea-blue: #2f6f8f;
+  --charcoal: #1e1e1e;
+  --muted-text: #6b625a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-sand: var(--sand);
+  --color-ivory: var(--ivory);
+  --color-terracotta: var(--terracotta);
+  --color-olive: var(--olive);
+  --color-deep-blue: var(--deep-blue);
+  --color-sea-blue: var(--sea-blue);
+  --color-charcoal: var(--charcoal);
+  --color-muted-text: var(--muted-text);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+}
+
+html {
+  background:
+    radial-gradient(circle at top, rgba(47, 111, 143, 0.08), transparent 34%),
+    linear-gradient(180deg, #fbf7f1 0%, #f6efe7 100%);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+}
+
+::selection {
+  background: rgba(182, 106, 75, 0.2);
+  color: var(--charcoal);
+}
+
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+img {
+  display: block;
+}

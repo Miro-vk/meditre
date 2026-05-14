@@ -1,0 +1,14 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4E8D8" />
+      <stop offset="0.52" stop-color="#C39C78" />
+      <stop offset="1" stop-color="#6D7E6D" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="52" fill="url(#bg)"/>
+  <circle cx="280" cy="180" r="96" fill="#FFF8EE" fill-opacity="0.55"/>
+  <path d="M0 620C170 575 300 520 480 540C650 560 760 650 920 674C1030 690 1120 670 1200 646V900H0V620Z" fill="#17324D" fill-opacity="0.2"/>
+  <path d="M0 730C180 700 350 724 500 774C640 820 820 850 1200 878V900H0V730Z" fill="#F6EFE7" fill-opacity="0.8"/>
+  <text x="86" y="126" fill="#1E1E1E" fill-opacity="0.85" font-size="64" font-family="Georgia, 'Times New Roman', serif" font-weight="700">Turkey</text>
+</svg>
