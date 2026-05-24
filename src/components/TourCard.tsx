@@ -19,11 +19,12 @@ export default function TourCard({
   ctaLabel,
 }: TourCardProps) {
   return (
-    <article className="overflow-hidden rounded-[1.5rem] border border-white/75 bg-white shadow-[0_14px_42px_rgba(23,50,77,0.08)]">
+    <article className="overflow-hidden rounded-[1.5rem] border border-white/75 bg-white/85 shadow-[0_14px_42px_rgba(23,50,77,0.08)] backdrop-blur-sm">
       {image ? (
-        <div className="relative aspect-[16/10] overflow-hidden">
+        <Link href={href} className="relative aspect-[16/10] overflow-hidden block">
           <Image src={image} alt={title} fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
-        </div>
+          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(8,18,26,0.04),rgba(8,18,26,0.42))]" />
+        </Link>
       ) : null}
       <div className="p-6">
         <h3 className="font-serif text-2xl text-charcoal">{title}</h3>

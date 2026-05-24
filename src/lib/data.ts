@@ -35,7 +35,7 @@ export const destinations = [
       "Discover Kefalonia, Ithaka, Zakynthos, and nearby Ionian islands through dramatic coastlines, quiet villages, local wine, mythology, and secluded beaches.",
     href: "/destinations/greece",
     ctaLabel: "Explore Greece",
-    image: "/images/greece.svg",
+    image: "/images/zakynthos.jpeg",
     alt: "Sunlit Ionian coastline in Greece",
   },
   {
@@ -46,7 +46,7 @@ export const destinations = [
       "Experience Turkey beyond the ordinary, from Cappadocia and Göbekli Tepe to Ani, Lake Van, Mount Ararat, Eastern Anatolia, and the cuisine of the southeast.",
     href: "/destinations/turkey",
     ctaLabel: "Explore Turkey",
-    image: "/images/turkey.svg",
+    image: "/images/izmir.jpg",
     alt: "Golden landscapes and ancient stone in Turkey",
   },
   {
@@ -57,7 +57,7 @@ export const destinations = [
       "Explore Friuli Venezia Giulia, Venice, Trieste, vineyards, countryside, coastal cafés, and the refined cultural blend of Northern Italy.",
     href: "/destinations/italy",
     ctaLabel: "Explore Italy",
-    image: "/images/italy.svg",
+    image: "/images/friuili.jpg",
     alt: "Northern Italian coastline with warm light",
   },
 ];
@@ -107,7 +107,7 @@ export const tourCategories = [
       "Island escapes, Ionian beaches, wine experiences, Ithaka, Zakynthos, and mainland culture.",
     href: "/tours/greece",
     ctaLabel: "View Greece Tours",
-    image: "/images/greece.svg",
+    image: "/images/zakynthos.jpeg",
     alt: "Mediterranean water and whitewashed hillside in Greece",
   },
   {
@@ -116,7 +116,7 @@ export const tourCategories = [
       "Eastern Turkey heritage, Cappadocia landscapes, religious history, and southeastern food journeys.",
     href: "/tours/turkey",
     ctaLabel: "View Turkey Tours",
-    image: "/images/turkey.svg",
+    image: "/images/izmir.jpg",
     alt: "Layered canyons and stone formations in Turkey",
   },
   {
@@ -125,7 +125,7 @@ export const tourCategories = [
       "Friuli wine, Venice, Trieste, northern Italian culture, cuisine, and hidden regional beauty.",
     href: "/tours/italy",
     ctaLabel: "View Italy Tours",
-    image: "/images/italy.svg",
+    image: "/images/friuili.jpg",
     alt: "Elegant northern Italian landscape by the sea",
   },
 ];
