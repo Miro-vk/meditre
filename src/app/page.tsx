@@ -24,7 +24,7 @@ export default function Home() {
         eyebrow="Custom Mediterranean Journeys"
         title="Tailor-made travel experiences in Greece, Turkey & Italy"
         subtitle="Personalized journeys designed around culture, nature, history, food, wine, and authentic local life."
-        image="/images/og-meditretravel.svg"
+        image="/images/petani-beach.jpg"
         primaryCta={{ label: "Plan Your Trip", href: "/contact" }}
         secondaryCta={{ label: "Explore Destinations", href: "/destinations" }}
       />
