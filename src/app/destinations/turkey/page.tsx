@@ -18,7 +18,7 @@ export default function TurkeyPage() {
         eyebrow="Turkey"
         title="Discover Turkey"
         subtitle="Ancient civilizations, dramatic landscapes, and authentic cultural journeys."
-        image="/images/turkey.svg"
+        image="/images/izmir.jpg"
         primaryCta={{ label: "Plan Your Turkey Journey", href: "/contact" }}
       />
       <section className="py-8 sm:py-12">

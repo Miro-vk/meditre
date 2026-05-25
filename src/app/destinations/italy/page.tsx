@@ -18,7 +18,7 @@ export default function ItalyPage() {
         eyebrow="Italy"
         title="Discover Northern Italy"
         subtitle="Friuli Venezia Giulia, Venice, Trieste, wine, countryside, and coastal culture."
-        image="/images/italy.svg"
+        image="/images/friuili.jpg"
         primaryCta={{ label: "Plan Your Italy Journey", href: "/contact" }}
       />
       <section className="py-8 sm:py-12">

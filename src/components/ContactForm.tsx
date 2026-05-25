@@ -70,10 +70,10 @@ export default function ContactForm() {
   };
 
   const fieldClassName =
-    "mt-2 w-full rounded-2xl border border-charcoal/10 bg-white px-4 py-3 text-sm text-charcoal outline-none transition focus:border-deep-blue focus:ring-2 focus:ring-deep-blue/10";
+    "mt-2 w-full rounded-2xl border border-charcoal/10 bg-white/90 px-4 py-3 text-sm text-charcoal outline-none transition placeholder:text-muted-text/60 focus:border-deep-blue focus:ring-2 focus:ring-deep-blue/10";
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="space-y-5 rounded-[2rem] border border-white/80 bg-white/90 p-6 shadow-[0_18px_50px_rgba(23,50,77,0.08)] sm:p-8">
+    <form onSubmit={handleSubmit(onSubmit)} className="space-y-5 rounded-[2rem] border border-white/80 bg-white/80 p-6 shadow-[0_18px_50px_rgba(23,50,77,0.08)] backdrop-blur-xl sm:p-8">
       <div className="grid gap-5 md:grid-cols-2">
         <label className="block text-sm font-medium text-charcoal">
           Full Name
@@ -142,7 +142,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={submitState.loading}
-        className="inline-flex h-12 items-center justify-center rounded-full bg-deep-blue px-6 text-sm font-semibold text-ivory transition-transform duration-200 hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-60"
+        className="inline-flex h-12 items-center justify-center rounded-full bg-[linear-gradient(135deg,rgba(23,50,77,1),rgba(47,111,143,1))] px-6 text-sm font-semibold text-ivory shadow-[0_12px_28px_rgba(23,50,77,0.18)] transition-transform duration-200 hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-60"
       >
         {submitState.loading ? "Sending..." : "Send Request"}
       </button>

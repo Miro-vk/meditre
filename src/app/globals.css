@@ -29,20 +29,29 @@
 }
 
 html {
+  background-color: var(--background);
   background:
     radial-gradient(circle at top, rgba(47, 111, 143, 0.08), transparent 34%),
     linear-gradient(180deg, #fbf7f1 0%, #f6efe7 100%);
+  scrollbar-gutter: stable;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-inter), sans-serif;
+  min-height: 100%;
+  line-height: 1.6;
 }
 
 ::selection {
-  background: rgba(182, 106, 75, 0.2);
+  background: rgba(47, 111, 143, 0.18);
   color: var(--charcoal);
+}
+
+:focus-visible {
+  outline: 2px solid rgba(47, 111, 143, 0.55);
+  outline-offset: 3px;
 }
 
 a {

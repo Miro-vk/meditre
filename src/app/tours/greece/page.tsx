@@ -19,7 +19,7 @@ export default function GreeceToursPage() {
         eyebrow="Greece Tours"
         title="Greece Tour Ideas"
         subtitle="Sample itineraries for Ionian island escapes, food and wine journeys, and slow travel around Greece."
-        image="/images/greece.svg"
+        image="/images/zakynthos.jpeg"
         primaryCta={{ label: "Plan Your Greece Trip", href: "/contact" }}
       />
       <section className="py-8 sm:py-12">

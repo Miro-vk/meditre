@@ -18,7 +18,7 @@ export default function GreecePage() {
         eyebrow="Greece"
         title="Discover Greece"
         subtitle="Ionian islands, ancient culture, and unforgettable coastal journeys."
-        image="/images/greece.svg"
+        image="/images/zakynthos.jpeg"
         primaryCta={{ label: "Plan Your Greece Trip", href: "/contact" }}
       />
       <section className="py-8 sm:py-12">

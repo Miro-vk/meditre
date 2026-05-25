@@ -19,7 +19,7 @@ export default function ItalyToursPage() {
         eyebrow="Italy Tours"
         title="Italy Tour Ideas"
         subtitle="Sample itineraries for Friuli wine, Venice, Trieste, and slow travel across Northern Italy."
-        image="/images/italy.svg"
+        image="/images/friuili.jpg"
         primaryCta={{ label: "Plan Your Italy Journey", href: "/contact" }}
       />
       <section className="py-8 sm:py-12">

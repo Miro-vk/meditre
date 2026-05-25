@@ -32,14 +32,14 @@ export default function MobileNav({
         type="button"
         aria-label="Close menu"
         className={cn(
-          "absolute inset-0 bg-charcoal/40 transition-opacity",
+          "absolute inset-0 bg-charcoal/40 transition-opacity backdrop-blur-[2px]",
           open ? "opacity-100" : "opacity-0",
         )}
         onClick={onClose}
       />
       <aside
         className={cn(
-          "absolute right-0 top-0 h-full w-[min(90vw,24rem)] overflow-y-auto border-l border-white/70 bg-ivory p-6 shadow-[0_20px_60px_rgba(23,50,77,0.2)] transition-transform duration-300",
+          "absolute right-0 top-0 h-full w-[min(90vw,24rem)] overflow-y-auto border-l border-white/70 bg-[linear-gradient(180deg,rgba(255,251,245,0.98),rgba(246,239,231,0.96))] p-6 shadow-[0_20px_60px_rgba(23,50,77,0.2)] transition-transform duration-300 backdrop-blur-xl",
           open ? "translate-x-0" : "translate-x-full",
         )}
       >
@@ -48,7 +48,7 @@ export default function MobileNav({
           <button
             type="button"
             onClick={onClose}
-            className="rounded-full border border-charcoal/10 px-3 py-2 text-sm text-charcoal"
+            className="rounded-full border border-charcoal/10 bg-white/70 px-3 py-2 text-sm text-charcoal"
           >
             Close
           </button>
@@ -60,7 +60,7 @@ export default function MobileNav({
                 key={item.href}
                 href={item.href}
                 onClick={onClose}
-                className="block rounded-2xl px-3 py-3 text-base font-medium text-charcoal hover:bg-sand"
+                  className="block rounded-2xl px-3 py-3 text-base font-medium text-charcoal transition-colors hover:bg-sand/80 hover:text-deep-blue"
               >
                 {item.label}
               </Link>
@@ -76,7 +76,7 @@ export default function MobileNav({
                   key={item.href}
                   href={item.href}
                   onClick={onClose}
-                  className="block rounded-2xl px-3 py-3 text-sm text-charcoal hover:bg-sand"
+                  className="block rounded-2xl px-3 py-3 text-sm text-charcoal transition-colors hover:bg-sand/80 hover:text-deep-blue"
                 >
                   {item.label}
                 </Link>
@@ -91,7 +91,7 @@ export default function MobileNav({
                   key={item.href}
                   href={item.href}
                   onClick={onClose}
-                  className="block rounded-2xl px-3 py-3 text-sm text-charcoal hover:bg-sand"
+                  className="block rounded-2xl px-3 py-3 text-sm text-charcoal transition-colors hover:bg-sand/80 hover:text-deep-blue"
                 >
                   {item.label}
                 </Link>

@@ -48,10 +48,17 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${playfair.variable} h-full scroll-smooth antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-sand text-charcoal">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
+      <body className="relative min-h-full overflow-x-hidden bg-background text-foreground">
+        <div aria-hidden className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+          <div className="absolute left-1/2 top-[-10rem] h-[32rem] w-[32rem] -translate-x-1/2 rounded-full bg-[radial-gradient(circle,rgba(47,111,143,0.18),transparent_68%)] blur-3xl" />
+          <div className="absolute bottom-[-14rem] right-[-8rem] h-[28rem] w-[28rem] rounded-full bg-[radial-gradient(circle,rgba(182,106,75,0.16),transparent_70%)] blur-3xl" />
+          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,251,245,0.58),rgba(246,239,231,0.92))]" />
+        </div>
+        <div className="relative flex min-h-full flex-col">
+          <Header />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );

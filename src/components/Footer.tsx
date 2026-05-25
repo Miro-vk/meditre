@@ -4,8 +4,9 @@ import { destinationNav, site, tourNav } from "@/lib/data";
 
 export default function Footer() {
   return (
-    <footer className="mt-10 border-t border-white/70 bg-ivory/80">
+    <footer className="mt-10 border-t border-white/70 bg-ivory/70 backdrop-blur-sm">
       <Container className="py-12 sm:py-14">
+        <div className="mb-10 h-px w-full bg-[linear-gradient(90deg,transparent,rgba(47,111,143,0.35),transparent)]" />
         <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr_0.8fr]">
           <div>
             <p className="font-serif text-3xl text-charcoal">{site.name}</p>

@@ -19,7 +19,7 @@ export default function TurkeyToursPage() {
         eyebrow="Turkey Tours"
         title="Turkey Tour Ideas"
         subtitle="Sample itineraries for Cappadocia, Eastern Anatolia, and food-rich southeastern journeys."
-        image="/images/turkey.svg"
+        image="/images/izmir.jpg"
         primaryCta={{ label: "Plan Your Turkey Journey", href: "/contact" }}
       />
       <section className="py-8 sm:py-12">

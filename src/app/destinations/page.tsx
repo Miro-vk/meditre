@@ -18,7 +18,7 @@ export default function DestinationsPage() {
         eyebrow="Destinations"
         title="Explore Our Destinations"
         subtitle="Handcrafted journeys across Greece, Turkey, and Northern Italy."
-        image="/images/og-meditretravel.svg"
+        image="/images/zakynthos.jpeg"
         primaryCta={{ label: "Request Planned Trip", href: "/contact" }}
       />
       <section className="py-8 sm:py-12">
