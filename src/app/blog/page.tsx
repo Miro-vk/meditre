@@ -17,7 +17,7 @@ export default function BlogPage() {
         eyebrow="Blog"
         title="Mediterranean Travel Journal"
         subtitle="Thoughtful notes, trip ideas, and future stories from Greece, Turkey, and Northern Italy."
-        image="/images/kefalonia%20cave.jpg"
+        image="/images/kefalonia-cave.jpg"
         primaryCta={{ label: "Request Your Trip", href: "/contact" }}
       />
       <section className="py-8 sm:py-12">
