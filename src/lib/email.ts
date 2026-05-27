@@ -90,10 +90,10 @@ function getMailer() {
 export async function sendContactEmail(values: ContactFormValues) {
   const envRecipient = process.env.CONTACT_TO_EMAIL;
   const recipient = envRecipient ?? "info@meditretravel.com";
-  const sender = process.env.CONTACT_FROM_EMAIL ?? process.env.SMTP_USER;
+  const sender = process.env.SMTP_USER;
 
   if (!sender) {
-    throw new Error("CONTACT_FROM_EMAIL or SMTP_USER is required.");
+    throw new Error("SMTP_USER is required.");
   }
 
   if (process.env.NODE_ENV === "production" && !envRecipient) {
