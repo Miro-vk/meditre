@@ -28,7 +28,7 @@ export default function ContactPage() {
                 subtitle="Use the form to share your dates, interests, budget, and destination ideas. We’ll use it to shape a thoughtful starting point for your journey."
               />
               <div className="mt-8 rounded-[1.6rem] border border-white/75 bg-white/75 p-6 text-sm leading-7 text-muted-text shadow-[0_12px_36px_rgba(23,50,77,0.06)] backdrop-blur-sm">
-                For the MVP, form submissions are sent to a placeholder API route and logged on the server. The structure is ready for a future email or CRM integration.
+                Form submissions are emailed directly to our travel desk, and we reply from the address you provide.
               </div>
             </div>
             <ContactForm />

@@ -29,6 +29,22 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Contact Form Email Setup
+
+The contact form sends mail through SMTP. Set these environment variables before running the app:
+
+- `CONTACT_TO_EMAIL`: destination inbox for new inquiries
+- `CONTACT_FROM_EMAIL`: sender address shown in outgoing mail, optional if `SMTP_USER` is a valid sender
+- `SMTP_HOST`: SMTP server host
+- `SMTP_PORT`: SMTP server port, for example `587`
+- `SMTP_USER`: SMTP username
+- `SMTP_PASSWORD`: SMTP password
+- `SMTP_SECURE`: set to `true` for port `465`, otherwise leave unset or `false`
+
+If `CONTACT_TO_EMAIL` is not set, submissions default to `info@meditretravel.com` in development.
+
+In production (`NODE_ENV=production`) `CONTACT_TO_EMAIL` must be set and the app will throw an error if it is missing.
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
